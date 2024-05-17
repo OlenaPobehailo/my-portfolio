@@ -1,10 +1,12 @@
+export const metadata = {
+  title: 'Contacts',
+  description: '',
+};
 
-type Props = {}
+type Props = {};
 
 const Contacts = (props: Props) => {
-  return (
-    <div>Contacts</div>
-  )
-}
+  return <div>Contacts</div>;
+};
 
-export default Contacts
+export default Contacts;

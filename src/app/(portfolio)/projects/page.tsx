@@ -1,6 +1,10 @@
-
-type Props = {};
+export const metadata = {
+  title: 'Projects',
+  description: '',
+};
  
+type Props = {};
+
 const Projects = (props: Props) => {
   return <div>Projects</div>;
 };

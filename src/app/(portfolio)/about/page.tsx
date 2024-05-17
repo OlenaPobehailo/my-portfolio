@@ -1,3 +1,7 @@
+export const metadata = {
+  title: 'About me',
+  description: '',
+};
 
 type Props = {}
 
