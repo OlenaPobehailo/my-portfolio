@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Container from './components/Container';
 import css from './page.module.css';
 
 export default function Home() {

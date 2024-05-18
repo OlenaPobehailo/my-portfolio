@@ -3,19 +3,18 @@
   max-width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 42px auto 0;
+  margin: 54px auto 0;
 
   @media screen and (min-width: 375px) {
     width: 375px;
   }
-
+  
   @media screen and (min-width: 480px) {
     width: 480px;
   }
-
+  
   @media screen and (min-width: 768px) {
     width: 768px;
-    margin-top: 50px;
   }
 
   @media screen and (min-width: 960px) {
