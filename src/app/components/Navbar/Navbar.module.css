@@ -1,8 +1,12 @@
 .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 10px 20px;
+  padding: 16px;
   background-color: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -18,69 +22,20 @@
   font-weight: 500;
 }
 
-.menuIcon {
-  font-size: 24px;
-  cursor: pointer;
-  display: none;
-}
 
-.mobileMenu {
-  position: absolute;
-  top: 48px;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: #ffffff;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  z-index: 10;
-}
-
-.mobileMenu ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.mobileMenu ul li {
-  margin-bottom: 10px;
-}
-
-.mobileMenu ul li:last-child {
-  margin-bottom: 0;
-}
-
-.closeIcon {
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.list a,
-.mobileMenu a {
-  color: inherit;
-  text-decoration: none;
+.list a{
   transition: color 0.3s ease;
 }
 
-.list a:hover,
-.mobileMenu a:hover {
-  color: #ff0000;
+.list a:hover {
+  color: salmon;
 }
 
 .active {
   font-weight: bold;
-  color: red;
+  color: salmon;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
-  .menuIcon {
-    display: block;
-  }
-
-  .list {
-    display: none;
-  }
-
-  .mobileHidden {
-    display: none;
-  }
 }

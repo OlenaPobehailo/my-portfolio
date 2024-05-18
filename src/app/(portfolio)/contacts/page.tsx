@@ -1,3 +1,5 @@
+import Container from '@/app/components/Container';
+
 export const metadata = {
   title: 'Contacts',
   description: '',
@@ -6,7 +8,7 @@ export const metadata = {
 type Props = {};
 
 const Contacts = (props: Props) => {
-  return <div>Contacts</div>;
+  return <Container>Contacts</Container>;
 };
 
 export default Contacts;
