@@ -33,11 +33,11 @@ export default function Home() {
           learning. While I don&apos;t have commercial experience yet, I have
           worked on several educational projects that showcase my skills. I have
           hands-on experience with front-end technologies such as HTML, CSS, and
-          JavaScript, including frameworks like React. On the back-end,
-          I&apos;ve worked with Node.js, along with databases such as MongoDB.
-          My projects include building responsive web applications, implementing
-          authentication systems, and integrating RESTful APIs for data
-          retrieval and manipulation.
+          JavaScript, including frameworks like React, Next.js. On the back-end,
+          I&apos;ve worked with Node.js, along with databases MongoDB and
+          framework Express.js. My projects include building responsive web
+          applications, implementing authentication systems, and integrating
+          RESTful APIs for data retrieval and manipulation.
         </p>
       </div>
 
@@ -100,6 +100,10 @@ export default function Home() {
           <li className={css.item}>
             <Icon name="icon-react" className={css.icon} />
             <p>React Native</p>
+          </li>
+          <li className={css.item}>
+            <Icon name="icon-wordpress" className={css.icon} />
+            <p>WordPress</p>
           </li>
         </ul>
       </div>
