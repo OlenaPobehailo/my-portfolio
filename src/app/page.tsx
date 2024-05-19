@@ -21,8 +21,8 @@ export default function Home() {
           During a long period of work as a lead engineer, specializing in metal
           science, I&apos;ve learned how to solve various tasks quickly and
           efficiently, analyze large amounts of information, pay close attention
-          to detail, work flawlessly in a team, maintain composure under time
-          constraints, and most importantly, always look for new knowledge.
+          to detail, work effectively in a team, maintain composure under time
+          constraints, and always look for new knowledge.
         </p>
         <p>
           Now, I am an enthusiastic Fullstack developer committed to continuous

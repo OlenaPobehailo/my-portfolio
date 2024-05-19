@@ -1,7 +1,6 @@
-import Container from '@/app/components/Container';
 import { projects } from '@/app/assets/projectsData';
-import Card from '@/app/components/Card';
-import css from './page.module.css';
+import ProjectList from '@/app/components/ProjectList';
+
 export const metadata = {
   title: 'Projects',
   description: '',
@@ -12,15 +11,7 @@ type Props = {};
 console.log(projects);
 
 const Projects = (props: Props) => {
-  return (
-    <ul className={css.projectList}>
-      {projects.map(item => (
-        <li key={item.id}>
-          <Card key={item.id} project={item} />
-        </li>
-      ))}
-    </ul>
-  );
+  return <ProjectList />;
 };
 
 export default Projects;
