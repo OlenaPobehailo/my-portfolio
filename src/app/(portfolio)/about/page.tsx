@@ -29,7 +29,7 @@ const About = (props: Props) => {
             Over my extensive tenure as a lead engineer,specializing in metal
             science, I&apos;ve learned to quickly and effectively tackle various
             tasks, analyze extensive information, pay meticulous attention to
-            details, collaborate effectively within a team, maintain composure
+            details, collaborate seamlessly within a team, maintain composure
             under time constraints, and, crucially, consistently seek new
             knowledge.
           </p>
