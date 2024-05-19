@@ -1,11 +1,14 @@
-import React from 'react'
+import Socials from '../Socials';
+import css from './Footer.module.css';
 
-type Props = {}
+type Props = {};
 
 const Footer = (props: Props) => {
   return (
-    <div>Footer</div>
-  )
-}
+    <div className={css.footer}>
+        <Socials />
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;

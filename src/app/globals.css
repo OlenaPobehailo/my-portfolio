@@ -2,6 +2,13 @@ html {
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 *,
 *::before,
 *::after {
@@ -25,7 +32,7 @@ li {
 
 a {
   text-decoration: none;
-  color: inherit
+  color: inherit;
 }
 
 button {
@@ -39,8 +46,16 @@ button {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 100мр;
   height: auto;
 }
 
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
+.content {
+  flex: 1;
+}

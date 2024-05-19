@@ -1,0 +1,13 @@
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.icon {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+}

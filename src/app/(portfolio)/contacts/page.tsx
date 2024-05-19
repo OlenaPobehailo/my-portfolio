@@ -1,5 +1,4 @@
 import ContactForm from '@/app/components/ContactForm';
-import Container from '@/app/components/Container';
 
 export const metadata = {
   title: 'Contacts',
