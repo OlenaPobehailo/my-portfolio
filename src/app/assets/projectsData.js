@@ -10,7 +10,7 @@ export const projects = [
     livePage: 'https://olenapobehailo.github.io/goit-markup-hw-08/',
     technology: ['HTML', 'SCSS'],
     description:
-      'This project has a responsive design with breakpoints for various devices, valid HTML5 markup, custom font integration, optimized graphics and image loading, icon sprites, and a favicon. It includes a header with navigation, a hero section with a call-to-action button, product showcases, video recipes, an image gallery, and a footer with contact and social links. Implemented using HTML5, CSS3, JavaScript, and modal windows for user interaction. I successfully created a modal windows',
+      'The project implemented a responsive/adaptive design to ensure the best possible viewing experience across all devices, from mobile phones to desktops.\n\n Using HTML and SASS, the layout adjusts seamlessly to different screen sizes and orientations. The design features include breakpoints for mobile, tablet, and desktop views, ensuring that the website is both visually appealing and highly functional on any device. \n\n Additionally, the use of custom SASS variables and mixins streamlined the styling process, making the code more maintainable and scalable.',
   },
 
   {
@@ -24,7 +24,7 @@ export const projects = [
     livePage: 'https://olenapobehailo.github.io/team-page/',
     technology: ['HTML', 'SCSS'],
     description:
-      'Tomato sauces online store. A responsively designed e-commerce website. We at GoIT built this project in collaboration with six other students. I successfully created a modal window using my technical knowledge of HTML, SASS, and JS',
+      'Tomato sauces online store. This project has a responsive design with breakpoints for various devices, valid HTML5 markup, custom font integration, optimized graphics and image loading, icon sprites, and a favicon.\n\n It includes a header with navigation, a hero section with a call-to-action button, product showcases, video recipes, an image gallery, and a footer with contact and social links. Implemented using HTML5, CSS3, JavaScript, and modal windows for user interaction. \n\n  I successfully created a modal windows',
   },
 
   {
@@ -38,7 +38,7 @@ export const projects = [
     livePage: 'https://olenapobehailo.github.io/money_makers/',
     technology: ['React', 'Redux', 'JavaScript'],
     description:
-      'Web application designed for tracking daily expenses. It features an adaptive design for desktop, tablet, and mobile devices. The core functionalities include main, authentication, and transaction history pages. In this collaborative project, I took responsibility for implementing the user registration and login functionalities.',
+      'Web application designed for tracking daily expenses. It features an adaptive design for desktop, tablet, and mobile devices. The core functionalities include a main dashboard for an overview of expenses, authentication pages for user registration and login, and transaction history pages to review past expenditures.\n\n In this collaborative project, I took responsibility for implementing the user registration and login functionalities. This involved setting up secure authentication flows, validating user input, and managing user sessions. Additionally, I integrated third-party libraries to enhance security and performance, ensuring that user data is handled safely and efficiently.',
   },
 
   {
@@ -52,7 +52,7 @@ export const projects = [
     livePage: 'https://olenapobehailo.github.io/car-rental-services',
     technology: ['React', 'Redux', 'JavaScript'],
     description:
-      'The website serves as a car rental platform where users can select their preferred vehicle, utilize filtering options to refine choices by brand, price, and mileage, and curate a personalized list of favorite models. ',
+      "The website serves as a comprehensive car rental platform where users can easily select their preferred vehicle. The platform offers advanced filtering options, allowing users to refine their choices based on various criteria such as brand, price, and mileage. This helps users quickly find the car that best suits their needs and preferences. \n\n Additionally, the website includes a feature for curating a personalized list of favorite models, enabling users to save and compare different options before making a decision. The platform's adaptive design ensures a seamless user experience across desktop, tablet, and mobile devices, making it convenient for users to access the service from any device.",
   },
 
   {
@@ -66,7 +66,7 @@ export const projects = [
     livePage: 'https://olenapobehailo.github.io/search-images/',
     technology: ['JavaScript', 'TypeScript', 'HTML', 'SCSS'],
     description:
-      'The Pixabay Image Search App is a web application that allows users to search for images on Pixabay, a popular platform for high-quality free images. Users can enter a search query, and the application fetches and displays relevant images using the Pixabay API.',
+      "The The Pixabay Image Search App is a dynamic web application designed to help users find and explore high-quality free images available on Pixabay. With a simple and intuitive interface, users can enter a search query to find images that match their interests. The application utilizes the Pixabay API to fetch and display relevant images based on the user's input. \n\n Key features of the app include real-time search functionality, where users receive instant image results as they type, and pagination to navigate through multiple pages of search results. Each image result is presented with essential details such as the image title, tags, and download options, making it easy for users to find exactly what they need.",
   },
 
   {
@@ -80,34 +80,34 @@ export const projects = [
     livePage: 'https://olenapobehailo.github.io/search-movies-react-app/',
     technology: ['JavaScript', 'React', 'Redux'],
     description:
-      'The TMDB Movie Search App is a web tool using the TMDB API, allowing users to easily find information about movies, actors, and reviews on The Movie Database platform.',
+      'The TMDB Movie Search App is a powerful web tool that leverages the TMDB API to provide users with comprehensive information about movies, actors, and reviews available on The Movie Database platform. With a user-friendly interface, the app allows users to search for their favorite movies or actors and instantly retrieve detailed information. \n\n  Users can enter movie titles, actor names, or keywords to find relevant information quickly. Each movie search result includes detailed information such as the synopsis, release date, genre, ratings, and cast. Access to user reviews and ratings for movies, helping users make informed viewing decisions. ',
   },
 
   {
     id: 7,
     projectName: 'PhoneBook',
     about:
-      'API documentation for the Contacts backend, allowing users to perform CRUD operations on contacts and manage user authentication.',
+      'React Application for Contacts Management is a frontend solution for organizing contacts and handling user authentication.',
     image: '/images/phonebook.jpg',
     type: 'Individual project',
     repo: 'https://github.com/OlenaPobehailo/phonebook-react-ts',
     livePage: 'https://olenapobehailo.github.io/phonebook-react-ts/',
     technology: ['TypeScript', 'React', 'Redux'],
     description:
-      'API documentation for Contacts backend. This API allows users to perform CRUD operations on contacts and manage user authentication.',
+      'This is a React application designed for managing contacts and user interactions. \n\n It enables users to handle contacts efficiently. Additionally, the application supports user authentication, allowing new users to register securely and log in to access personalized features. \n\n Technologies utilized include React.js for frontend development and Redux for state management within the React application. \n\n The application supports two languages: English and Ukrainian.',
   },
   {
     id: 8,
     projectName: 'Contacts REST API',
     about:
-      'The application provides users with the ability to register an account and log in. Users can manage a private collection of contacts',
+      'API for managing contacts. It includes endpoints for CRUD operations on contacts, user authentication using JWT.',
     image: '/images/contacts-rest-api.jpg',
     type: 'Individual project',
     repo: 'https://github.com/OlenaPobehailo/contacts-REST-API',
     livePage: 'https://contacts-rest-api-siob.onrender.com/api-docs/',
     technology: ['TypeScript', 'Node.js'],
     description:
-      'The application provides users with the ability to register an account and log in. Users can manage a private collection of contacts',
+      'The API is designed to manage contacts, offering a range of endpoints for creating, reading, updating, and deleting contacts. It also provides user authentication through JSON Web Tokens (JWT), allowing users to register, log in, and log out securely. \n\n Additionally, the API includes features for managing user avatars, verifying users via email, and resending email verification for account security.',
   },
   {
     id: 9,
@@ -120,6 +120,6 @@ export const projects = [
     livePage: 'https://learn-lingo-kappa.vercel.app/',
     technology: ['React', 'Firebase'],
     description:
-      'This application is designed for a company offering online language teacher services. Users filter teachers by language, knowledge levels, and rates, adding them to favorites. Firebase powers user authentication and React Router ensures navigation.',
+      'The application is tailored for a company providing online language teacher services.\n\n  Users can easily filter teachers based on language, knowledge levels, and rates, and then add their preferred teachers to their favorites list. Firebase takes care of user authentication, ensuring secure access to the platform. React Router handles navigation.',
   },
 ];

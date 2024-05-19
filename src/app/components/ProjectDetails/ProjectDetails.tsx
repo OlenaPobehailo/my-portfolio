@@ -5,6 +5,8 @@ import Image from 'next/image';
 type Props = { project: Project };
 
 const ProjectDetails = ({ project }: Props) => {
+  const paragraphs = project.description.split('\n\n');
+
   return (
     <div className={css.details}>
       <div className={css.imageWrapper}>
@@ -19,7 +21,11 @@ const ProjectDetails = ({ project }: Props) => {
         <div>
           <h2>{project.projectName}</h2>
           <p className={css.type}>{project.type}</p>
-          <p className={css.description}>{project.description}</p>
+          <p className={css.description}>
+            {paragraphs.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </p>
 
           <div className={css.technologies}>
             <span>Tech stack: </span>
