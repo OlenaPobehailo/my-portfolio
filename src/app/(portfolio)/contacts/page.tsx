@@ -1,3 +1,4 @@
+import ContactForm from '@/app/components/ContactForm';
 import Container from '@/app/components/Container';
 
 export const metadata = {
@@ -8,7 +9,7 @@ export const metadata = {
 type Props = {};
 
 const Contacts = (props: Props) => {
-  return <Container>Contacts</Container>;
+  return <ContactForm />;
 };
 
 export default Contacts;
