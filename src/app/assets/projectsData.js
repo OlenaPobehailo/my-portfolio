@@ -29,7 +29,7 @@ export const projects = [
 
   {
     id: 3,
-    projectName: 'ExpenseTracker',
+    projectName: 'Expense Tracker',
     about:
       'Adaptive web app for tracking daily expenses on desktop, tablet, and mobile. I implemented user registration and login',
     image: '/images/money-makers.jpg',
@@ -105,7 +105,7 @@ export const projects = [
     type: 'Individual project',
     repo: 'https://github.com/OlenaPobehailo/contacts-REST-API',
     livePage: 'https://contacts-rest-api-siob.onrender.com/api-docs/',
-    technology: ['TypeScript', 'Node.js'],
+    technology: ['TypeScript', 'Node.js', 'MongoDB', 'Express.js'],
     description:
       'The API is designed to manage contacts, offering a range of endpoints for creating, reading, updating, and deleting contacts. It also provides user authentication through JSON Web Tokens (JWT), allowing users to register, log in, and log out securely. \n\n Additionally, the API includes features for managing user avatars, verifying users via email, and resending email verification for account security.',
   },
@@ -121,5 +121,19 @@ export const projects = [
     technology: ['React', 'Firebase'],
     description:
       'The application is tailored for a company providing online language teacher services.\n\n  Users can easily filter teachers based on language, knowledge levels, and rates, and then add their preferred teachers to their favorites list. Firebase takes care of user authentication, ensuring secure access to the platform. React Router handles navigation.',
+  },
+
+  {
+    id: 10,
+    projectName: 'Model Portfolio',
+    about:
+      'The Model Portfolio Website showcases a photo with a responsive gallery and includes a contact form for getting in touch with the model.',
+    image: '/images/model-portfolio.jpg',
+    type: 'Individual project',
+    repo: 'https://github.com/OlenaPobehailo/tetianaandronenko',
+    livePage: 'https://tetianaandronenko.vercel.app/',
+    technology: ['Next.js'],
+    description:
+      "The Model Portfolio Website is a sleek platform designed to showcase a photo model's work. \n\n Visitors can browse through a collection of  images in a responsive photo gallery. The site ensures an optimal viewing experience across all devices, with a modal window feature that opens images in a detailed view when clicked. \n\n Additionally, a loader enhances the user experience by displaying during image loading. Built using Next.js, the site leverages the React-Photo-Gallery for the responsive gallery, CSS Modules for scoped component styling, and the Next.js Image Component for optimized image loading and performance. \n\n It also includes a contact form for getting in touch with the model.",
   },
 ];
