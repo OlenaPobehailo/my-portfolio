@@ -7,6 +7,7 @@ const Footer = (props: Props) => {
   return (
     <div className={css.footer}>
       <Socials />
+      <p className={css.copyright}>&copy; 2024 Olena Pobehailo</p>
     </div>
   );
 };
