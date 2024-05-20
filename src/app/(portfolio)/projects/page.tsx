@@ -5,7 +5,7 @@ import ProjectList from '@/app/components/ProjectList';
 export const metadata = {
   title: 'Projects',
   description:
-    'Browse through a collection of web development projects, including responsive websites, web applications, and e-commerce solutions. Discover how cutting-edge technologies and best practices are applied to deliver high-quality results.',
+    'Explore a diverse range of projects showcasing full-stack development skills. Each project highlights proficiency in technologies like React, Next.js, Node.js, and MongoDB.',
 };
 
 type Props = {};
