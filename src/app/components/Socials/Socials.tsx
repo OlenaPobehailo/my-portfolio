@@ -8,6 +8,7 @@ const Socials = (props: Props) => {
     <ul className={css.socials}>
       <li>
         <a
+          className={css.link}
           href="https://github.com/OlenaPobehailo"
           target="_blank"
           rel="noreferrer"
@@ -17,6 +18,7 @@ const Socials = (props: Props) => {
       </li>
       <li>
         <a
+          className={css.link}
           href="https://www.linkedin.com/in/olena-pobehailo/"
           target="_blank"
           rel="noreferrer"
@@ -25,17 +27,23 @@ const Socials = (props: Props) => {
         </a>
       </li>
       <li>
-        <a href="https://t.me/OlenapP365" target="_blank" rel="noreferrer">
+        <a
+          className={css.link}
+          href="https://t.me/OlenapP365"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Icon name="icon-telegram" className={css.icon} />
         </a>
       </li>
       <li>
         <a
+          className={css.link}
           href="mailto:olena.pobehailo@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
-          <Icon name="icon-gmail" className={css.icon} />
+          <Icon name="icon-mail" className={css.icon} />
         </a>
       </li>
     </ul>

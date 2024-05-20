@@ -1,3 +1,5 @@
+import css from './Icon.module.css';
+
 type Props = {
   className: string;
   name: string;
@@ -5,7 +7,7 @@ type Props = {
 
 const Icon = ({ className, name }: Props) => {
   return (
-    <svg className={`${className}`}>
+    <svg className={`${css.icon} ${className || ''}`}>
       <use xlinkHref={`/icons/sprite.svg#${name}`} />
     </svg>
   );
