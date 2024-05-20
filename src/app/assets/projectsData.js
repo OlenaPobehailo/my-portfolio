@@ -78,7 +78,7 @@ export const projects = [
     type: 'Individual project',
     repo: 'https://github.com/OlenaPobehailo/search-movies-react-app',
     livePage: 'https://olenapobehailo.github.io/search-movies-react-app/',
-    technology: ['JavaScript', 'React', 'Redux'],
+    technology: ['JavaScript', 'React', 'Redux', 'Styled components'],
     description:
       'The TMDB Movie Search App is a powerful web tool that leverages the TMDB API to provide users with comprehensive information about movies, actors, and reviews available on The Movie Database platform. With a user-friendly interface, the app allows users to search for their favorite movies or actors and instantly retrieve detailed information. \n\n  Users can enter movie titles, actor names, or keywords to find relevant information quickly. Each movie search result includes detailed information such as the synopsis, release date, genre, ratings, and cast. Access to user reviews and ratings for movies, helping users make informed viewing decisions. ',
   },
@@ -92,7 +92,7 @@ export const projects = [
     type: 'Individual project',
     repo: 'https://github.com/OlenaPobehailo/phonebook-react-ts',
     livePage: 'https://olenapobehailo.github.io/phonebook-react-ts/',
-    technology: ['TypeScript', 'React', 'Redux'],
+    technology: ['TypeScript', 'React', 'Redux', 'Styled components'],
     description:
       'This is a React application designed for managing contacts and user interactions. \n\n It enables users to handle contacts efficiently. Additionally, the application supports user authentication, allowing new users to register securely and log in to access personalized features. \n\n Technologies utilized include React.js for frontend development and Redux for state management within the React application. \n\n The application supports two languages: English and Ukrainian.',
   },
@@ -118,7 +118,7 @@ export const projects = [
     type: 'Individual project',
     repo: 'https://github.com/OlenaPobehailo/LearnLingo',
     livePage: 'https://learn-lingo-kappa.vercel.app/',
-    technology: ['React', 'Firebase'],
+    technology: ['React', 'Firebase', 'Styled components'],
     description:
       'The application is tailored for a company providing online language teacher services.\n\n  Users can easily filter teachers based on language, knowledge levels, and rates, and then add their preferred teachers to their favorites list. Firebase takes care of user authentication, ensuring secure access to the platform. React Router handles navigation.',
   },
@@ -132,8 +132,22 @@ export const projects = [
     type: 'Individual project',
     repo: 'https://github.com/OlenaPobehailo/tetianaandronenko',
     livePage: 'https://tetianaandronenko.vercel.app/',
-    technology: ['Next.js'],
+    technology: ['Next.js', 'React', 'CSS Modules'],
     description:
       "The Model Portfolio Website is a sleek platform designed to showcase a photo model's work. \n\n Visitors can browse through a collection of  images in a responsive photo gallery. The site ensures an optimal viewing experience across all devices, with a modal window feature that opens images in a detailed view when clicked. \n\n Additionally, a loader enhances the user experience by displaying during image loading. Built using Next.js, the site leverages the React-Photo-Gallery for the responsive gallery, CSS Modules for scoped component styling, and the Next.js Image Component for optimized image loading and performance. \n\n It also includes a contact form for getting in touch with the model.",
+  },
+
+  {
+    id: 11,
+    projectName: 'My Portfolio',
+    about:
+      'This project is a portfolio website built using Next.js, showcasing my skills and projects.',
+    image: '/images/my-portfolio.jpg',
+    type: 'Individual project',
+    repo: 'https://github.com/OlenaPobehailo/my-portfolio',
+    livePage: 'https://olena-pobehailo.vercel.app/',
+    technology: ['Next.js', 'React', 'CSS Modules'],
+    description:
+      'This portfolio website showcases my skills and projects as a full-stack developer, offering visitors a seamless and interactive experience. It features a responsive design for optimal viewing across devices, highlights a diverse range of projects, showcases proficiency in front-end and back-end technologies like React, Node.js, and MongoDB, and includes a contact form for inquiries, collaborations, or discussions. Technologies used include Next.js for server-side rendering, React for UI building, CSS Modules for scoped styling, GitHub for hosting repositories, and Vercel for deployment.',
   },
 ];
