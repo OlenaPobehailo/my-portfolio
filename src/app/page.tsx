@@ -24,7 +24,7 @@ export default function Home() {
         <div className={css.infoWrapper}>
           <p>
             Having worked for many years as a lead engineer specializing in
-            materials science, I&apos;ve become proficient in solving various
+            metal science, I&apos;ve become proficient in solving various
             tasks quickly and efficiently, analyzing large amounts of
             information, paying close attention to detail, working effectively
             in a team, maintaining composure under time constraints, and always
