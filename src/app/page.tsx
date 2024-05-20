@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Icon from './components/Icon/Icon';
-import css from './page.module.css';
 import Container from './components/Container';
+import css from './page.module.css';
 
 export default function Home() {
   return (

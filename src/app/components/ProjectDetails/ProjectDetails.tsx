@@ -1,6 +1,6 @@
+import Image from 'next/image';
 import { Project } from '../Card/Card';
 import css from './ProjectDetails.module.css';
-import Image from 'next/image';
 
 type Props = { project: Project };
 

@@ -10,8 +10,6 @@ export const metadata = {
 
 type Props = {};
 
-console.log(projects);
-
 const Projects = (props: Props) => {
   return (
     <Container>

@@ -1,8 +1,8 @@
 'use client';
 
 import { useCallback, useEffect } from 'react';
-import css from './Modal.module.css';
 import { AiOutlineClose } from 'react-icons/ai';
+import css from './Modal.module.css';
 
 type Props = {
   onClose: () => void;

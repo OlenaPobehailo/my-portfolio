@@ -1,10 +1,10 @@
 'use client';
 
 import Image from 'next/image';
-import React, { useState } from 'react';
-import css from './Card.module.css';
-import Modal from '../Modal';
+import { useState } from 'react';
 import ProjectDetails from '../ProjectDetails';
+import Modal from '../Modal';
+import css from './Card.module.css';
 
 export type Project = {
   id: number;

@@ -3,6 +3,18 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
+
+  @media screen and (min-width: 768px) {
+    gap: 16px;
+  }
+
+  @media screen and (min-width: 960px) {
+    gap: 24px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    gap: 36px;
+  }
 }
 
 .link {
@@ -23,4 +35,19 @@
   height: 24px;
   display: inline-block;
   vertical-align: middle;
+
+  @media screen and (min-width: 768px) {
+    width: 28px;
+    height: 28px;
+  }
+
+  @media screen and (min-width: 960px) {
+    width: 32px;
+    height: 32px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 36px;
+    height: 36px;
+  }
 }

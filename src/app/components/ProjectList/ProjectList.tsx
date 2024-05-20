@@ -2,9 +2,9 @@
 
 import { useState } from 'react';
 import { projects } from '@/app/assets/projectsData';
-import css from './ProjectList.module.css';
 import Card from '../Card';
 import Filter from '../Filter/Filter';
+import css from './ProjectList.module.css';
 
 type Props = {};
 
@@ -24,8 +24,6 @@ const ProjectList = (props: Props) => {
       setFilteredProjects(projects);
     }
   };
-
-  console.log(technologies);
 
   return (
     <>
