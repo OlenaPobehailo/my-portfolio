@@ -29,7 +29,7 @@ const Socials = (props: Props) => {
       <li>
         <a
           className={css.link}
-          href="https://t.me/OlenapP365"
+          href="https://t.me/Olenap365"
           target="_blank"
           rel="noreferrer"
         >

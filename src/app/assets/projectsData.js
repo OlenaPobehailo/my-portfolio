@@ -24,7 +24,7 @@ export const projects = [
     livePage: 'https://olenapobehailo.github.io/team-page/',
     technology: ['HTML', 'SCSS'],
     description:
-      'Tomato sauces online store. This project has a responsive design with breakpoints for various devices, valid HTML5 markup, custom font integration, optimized graphics and image loading, icon sprites, and a favicon.\n\n It includes a header with navigation, a hero section with a call-to-action button, product showcases, video recipes, an image gallery, and a footer with contact and social links. Implemented using HTML5, CSS3, JavaScript, and modal windows for user interaction. \n\n  I successfully created a modal windows',
+      'Tomato sauces online store. This project has a responsive design with breakpoints for various devices, valid HTML5 markup, custom font integration, optimized graphics and image loading, icon sprites, and a favicon.\n\n It includes a header with navigation, a hero section with a call-to-action button, product showcases, video recipes, an image gallery, and a footer with contact and social links. Implemented using HTML5, CSS3, JavaScript, and modal windows for user interaction. \n\n  I successfully created modal windows.',
   },
 
   {
