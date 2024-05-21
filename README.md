@@ -9,7 +9,7 @@ for visitors.
 - **Responsive Design:** Ensures optimal viewing experience across devices.
 - **Project Showcase:** Highlights a diverse range of projects.
 - **Skills Display:** Showcases proficiency in front-end and back-end
-  technologies, such as React, Node.js, MongoDB, etc.
+  technologies.
 - **Contact Form:** Provides a convenient way for visitors to get in touch for
   inquiries, collaborations, or discussions.
 
@@ -19,4 +19,4 @@ for visitors.
 - **React:** A JavaScript library for building user interfaces.
 - **CSS Modules:** Scoped CSS for styling components.
 - **GitHub:** For hosting the code repositories.
-- **Vercel:** For deploying applications.
+- **Vercel:** For application deploying.
