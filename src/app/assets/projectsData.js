@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     projectName: 'WebStudio',
     about:
-      'The project implemented responsive/adoptive design for the best possible website viewing experience using HTML and SASS.',
+      'The project implemented responsive/adoptive design for the best possible website viewing experience using HTML and SASS. Markup only.',
     image: '/images/webstudio.jpg',
     type: 'Individual project',
     repo: 'https://github.com/OlenaPobehailo/goit-markup-hw-08',
@@ -17,7 +17,7 @@ export const projects = [
     id: 2,
     projectName: 'Cucina di Catherina',
     about:
-      'A responsively designed e-commerce website. This project is built in team collaboration.',
+      'A responsively designed e-commerce website. This project is built in team collaboration. Markup only.',
     image: '/images/cucina-di-catherina.jpg',
     type: 'Team project',
     repo: 'https://github.com/OlenaPobehailo/team-page',
@@ -27,19 +27,19 @@ export const projects = [
       'Tomato sauces online store. This project has a responsive design with breakpoints for various devices, valid HTML5 markup, custom font integration, optimized graphics and image loading, icon sprites, and a favicon.\n\n It includes a header with navigation, a hero section with a call-to-action button, product showcases, video recipes, an image gallery, and a footer with contact and social links. Implemented using HTML5, CSS3, JavaScript, and modal windows for user interaction. \n\n  I successfully created modal windows.',
   },
 
-  {
-    id: 3,
-    projectName: 'Expense Tracker',
-    about:
-      'Adaptive web app for tracking daily expenses on desktop, tablet, and mobile. I implemented user registration and login',
-    image: '/images/money-makers.jpg',
-    type: 'Team project',
-    repo: 'https://github.com/OlenaPobehailo/money_makers',
-    livePage: 'https://olenapobehailo.github.io/money_makers/',
-    technology: ['React', 'Redux', 'JavaScript'],
-    description:
-      'Web application designed for tracking daily expenses. It features an adaptive design for desktop, tablet, and mobile devices. The core functionalities include a main dashboard for an overview of expenses, authentication pages for user registration and login, and transaction history pages to review past expenditures.\n\n In this collaborative project, I took responsibility for implementing the user registration and login functionalities. This involved setting up secure authentication flows, validating user input, and managing user sessions. Additionally, I integrated third-party libraries to enhance security and performance, ensuring that user data is handled safely and efficiently.',
-  },
+  // {
+  //   id: 3,
+  //   projectName: 'Expense Tracker',
+  //   about:
+  //     'Adaptive web app for tracking daily expenses on desktop, tablet, and mobile. I implemented user registration and login',
+  //   image: '/images/money-makers.jpg',
+  //   type: 'Team project',
+  //   repo: 'https://github.com/OlenaPobehailo/money_makers',
+  //   livePage: 'https://olenapobehailo.github.io/money_makers/',
+  //   technology: ['React', 'Redux', 'JavaScript'],
+  //   description:
+  //     'Web application designed for tracking daily expenses. It features an adaptive design for desktop, tablet, and mobile devices. The core functionalities include a main dashboard for an overview of expenses, authentication pages for user registration and login, and transaction history pages to review past expenditures.\n\n In this collaborative project, I took responsibility for implementing the user registration and login functionalities. This involved setting up secure authentication flows, validating user input, and managing user sessions. Additionally, I integrated third-party libraries to enhance security and performance, ensuring that user data is handled safely and efficiently.',
+  // },
 
   {
     id: 4,
@@ -83,19 +83,19 @@ export const projects = [
       'The TMDB Movie Search App is a powerful web tool that leverages the TMDB API to provide users with comprehensive information about movies, actors, and reviews available on The Movie Database platform. With a user-friendly interface, the app allows users to search for their favorite movies or actors and instantly retrieve detailed information. \n\n  Users can enter movie titles, actor names, or keywords to find relevant information quickly. Each movie search result includes detailed information such as the synopsis, release date, genre, ratings, and cast. Access to user reviews and ratings for movies, helping users make informed viewing decisions. ',
   },
 
-  {
-    id: 7,
-    projectName: 'PhoneBook',
-    about:
-      'React Application for Contacts Management is a frontend solution for organizing contacts and handling user authentication.',
-    image: '/images/phonebook.jpg',
-    type: 'Individual project',
-    repo: 'https://github.com/OlenaPobehailo/phonebook-react-ts',
-    livePage: 'https://olenapobehailo.github.io/phonebook-react-ts/',
-    technology: ['TypeScript', 'React', 'Redux', 'Styled components'],
-    description:
-      'This is a React application designed for managing contacts and user interactions. \n\n It enables users to handle contacts efficiently. Additionally, the application supports user authentication, allowing new users to register securely and log in to access personalized features. \n\n Technologies utilized include React.js for frontend development and Redux for state management within the React application. \n\n The application supports two languages: English and Ukrainian.',
-  },
+  // {
+  //   id: 7,
+  //   projectName: 'PhoneBook',
+  //   about:
+  //     'React Application for Contacts Management is a frontend solution for organizing contacts and handling user authentication.',
+  //   image: '/images/phonebook.jpg',
+  //   type: 'Individual project',
+  //   repo: 'https://github.com/OlenaPobehailo/phonebook-react-ts',
+  //   livePage: 'https://olenapobehailo.github.io/phonebook-react-ts/',
+  //   technology: ['TypeScript', 'React', 'Redux', 'Styled components'],
+  //   description:
+  //     'This is a React application designed for managing contacts and user interactions. \n\n It enables users to handle contacts efficiently. Additionally, the application supports user authentication, allowing new users to register securely and log in to access personalized features. \n\n Technologies utilized include React.js for frontend development and Redux for state management within the React application. \n\n The application supports two languages: English and Ukrainian.',
+  // },
   {
     id: 8,
     projectName: 'Contacts REST API',
