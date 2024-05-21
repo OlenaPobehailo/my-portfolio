@@ -22,6 +22,10 @@
 .list li {
   font-size: 16px;
   font-weight: 500;
+
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
 }
 
 .list a {
@@ -33,7 +37,7 @@
 }
 
 .active {
-  font-weight: bold;
+  font-weight: 600;
   color: salmon;
   text-decoration: underline;
 }

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Icon from './components/Icon/Icon';
 import Container from './components/Container';
 import css from './page.module.css';
+import { CgVercel } from 'react-icons/cg';
 
 export default function Home() {
   return (
@@ -24,11 +25,11 @@ export default function Home() {
         <div className={css.infoWrapper}>
           <p>
             Having worked for many years as a lead engineer specializing in
-            metal science, I&apos;ve become proficient in solving various
-            tasks quickly and efficiently, analyzing large amounts of
-            information, paying close attention to detail, working effectively
-            in a team, maintaining composure under time constraints, and always
-            seeking new knowledge.
+            metal science, I&apos;ve become proficient in solving various tasks
+            quickly and efficiently, analyzing large amounts of information,
+            paying close attention to detail, working effectively in a team,
+            maintaining composure under time constraints, and always seeking new
+            knowledge.
           </p>
           <p>
             Now, I am an enthusiastic Fullstack developer committed to
@@ -42,6 +43,13 @@ export default function Home() {
             systems, and integrating RESTful APIs for data retrieval and
             manipulation.
           </p>
+          <a
+            className={css.downloadCV}
+            href="/cv/cv.pdf"
+            download="Olena_Pobehailo_junior-fullstack-developer.pdf"
+          >
+            Download CV
+          </a>
         </div>
 
         <div className={css.skillsWrapper}>
