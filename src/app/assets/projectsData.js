@@ -83,19 +83,20 @@ export const projects = [
       'The TMDB Movie Search App is a powerful web tool that leverages the TMDB API to provide users with comprehensive information about movies, actors, and reviews available on The Movie Database platform. With a user-friendly interface, the app allows users to search for their favorite movies or actors and instantly retrieve detailed information. \n\n  Users can enter movie titles, actor names, or keywords to find relevant information quickly. Each movie search result includes detailed information such as the synopsis, release date, genre, ratings, and cast. Access to user reviews and ratings for movies, helping users make informed viewing decisions. ',
   },
 
-  // {
-  //   id: 7,
-  //   projectName: 'PhoneBook',
-  //   about:
-  //     'React Application for Contacts Management is a frontend solution for organizing contacts and handling user authentication.',
-  //   image: '/images/phonebook.jpg',
-  //   type: 'Individual project',
-  //   repo: 'https://github.com/OlenaPobehailo/phonebook-react-ts',
-  //   livePage: 'https://olenapobehailo.github.io/phonebook-react-ts/',
-  //   technology: ['TypeScript', 'React', 'Redux', 'Styled components'],
-  //   description:
-  //     'This is a React application designed for managing contacts and user interactions. \n\n It enables users to handle contacts efficiently. Additionally, the application supports user authentication, allowing new users to register securely and log in to access personalized features. \n\n Technologies utilized include React.js for frontend development and Redux for state management within the React application. \n\n The application supports two languages: English and Ukrainian.',
-  // },
+  {
+    id: 7,
+    projectName: 'PhoneBook',
+    about:
+      'React Application for Contacts Management is a frontend solution for organizing contacts and handling user authentication.',
+    image: '/images/phonebook.jpg',
+    type: 'Individual project',
+    repo: 'https://github.com/OlenaPobehailo/phonebook-react-ts',
+    livePage: 'https://olenapobehailo.github.io/phonebook-react-ts',
+    technology: ['TypeScript', 'React', 'Redux', 'Styled components'],
+    description:
+      'This is a React application designed for managing contacts and user interactions. \n\n It enables users to handle contacts efficiently. Additionally, the application supports user authentication, allowing new users to register securely and log in to access personalized features. \n\n Technologies utilized include React.js for frontend development and Redux for state management within the React application. \n\n The application supports two languages: English and Ukrainian.',
+  },
+
   {
     id: 8,
     projectName: 'Contacts REST API',
