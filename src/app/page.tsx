@@ -116,6 +116,15 @@ export default function Home() {
               <Icon name="icon-wordpress" className={css.icon} />
               <p>WordPress</p>
             </li>
+            <li className={css.item}>
+              <Icon name="icon-sql" className={css.icon} />
+              <p>SQL</p>
+            </li>
+            <li className={css.item}>
+              <Icon name="icon-postgresql" className={css.icon} />
+              <p>PostgreSQL</p>
+            </li>
+
           </ul>
         </div>
       </div>
