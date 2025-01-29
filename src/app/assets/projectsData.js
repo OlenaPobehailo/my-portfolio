@@ -1,6 +1,46 @@
 export const projects = [
   {
     id: 1,
+    projectName: 'Model Portfolio',
+    about:
+      'The Model Portfolio Website showcases a photo with a responsive gallery and includes a contact form for getting in touch with the model.',
+    image: '/images/model-portfolio.jpg',
+    type: 'Individual project',
+    repo: 'https://github.com/OlenaPobehailo/tetianaandronenko',
+    livePage: 'https://tetianaandronenko.vercel.app/',
+    technology: ['Next.js', 'React', 'CSS Modules'],
+    description:
+      "The Model Portfolio Website is a platform designed to showcase a photo model's work. \n\n Visitors can browse through a collection of  images in a responsive photo gallery. The site ensures an optimal viewing experience across all devices, with a modal window feature that opens images in a detailed view when clicked. \n\n Additionally, a loader enhances the user experience by displaying during image loading. Built using Next.js, the site leverages the React-Photo-Gallery for the responsive gallery, CSS Modules for scoped component styling, and the Next.js Image Component for optimized image loading and performance. \n\n It also includes a contact form for getting in touch with the model.",
+  },
+
+  {
+    id: 2,
+    projectName: 'My Portfolio',
+    about:
+      'This project is a portfolio website built using Next.js, showcasing my skills and projects.',
+    image: '/images/my-portfolio.jpg',
+    type: 'Individual project',
+    repo: 'https://github.com/OlenaPobehailo/my-portfolio',
+    livePage: 'https://olena-pobehailo.vercel.app/',
+    technology: ['Next.js', 'React', 'CSS Modules'],
+    description:
+      'This portfolio website showcases my skills and projects as a full-stack developer, offering visitors a seamless and interactive experience. It features a responsive design for optimal viewing across devices, highlights a diverse range of projects, showcases proficiency in front-end and back-end technologies like React, Node.js, and MongoDB, and includes a contact form for inquiries, collaborations, or discussions. Technologies used include Next.js for server-side rendering, React for UI building, CSS Modules for scoped styling, GitHub for hosting repositories, and Vercel for deployment.',
+  },
+  {
+    id: 3,
+    projectName: 'Artsander',
+    about:
+      'This project is a portfolio website for a professional video editor built using HTML, CSS, JavaScript, showcasing my skills and projects.',
+    image: '/images/artsander.jpg',
+    type: 'Individual project',
+    repo: 'https://github.com/OlenaPobehailo/artsander',
+    livePage: 'https://artsander.vercel.app/',
+    technology: ['HTML', 'SCSS', 'JavaScript'],
+    description:
+      'The Video Editor Portfolio Website is designed to showcase a to showcase his work, skills, and services. \n\n Visitors can browse through a collection of  videos. The site ensures an optimal viewing experience across all devices, with a modal window feature that opens videos when clicked. \n\n A loader enhances the user experience by displaying during video loading. Built using HTML, CSS, and JavaScript. \n\n It also includes a contacts for getting in touch with the video editor.',
+  },
+  {
+    id: 4,
     projectName: 'WebStudio',
     about:
       'The project implemented responsive/adoptive design for the best possible website viewing experience using HTML and SASS. Markup only.',
@@ -14,7 +54,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 5,
     projectName: 'Cucina di Catherina',
     about:
       'A responsively designed e-commerce website. This project is built in team collaboration. Markup only.',
@@ -28,7 +68,7 @@ export const projects = [
   },
 
   // {
-  //   id: 3,
+  //   id: 6,
   //   projectName: 'Expense Tracker',
   //   about:
   //     'Adaptive web app for tracking daily expenses on desktop, tablet, and mobile. I implemented user registration and login',
@@ -42,7 +82,7 @@ export const projects = [
   // },
 
   {
-    id: 4,
+    id: 7,
     projectName: 'Car Rental Service',
     about:
       'The website is a car rental platform where users can select vehicles, filter by brand, price, and mileage, and create a personalized list of favorite models.',
@@ -56,7 +96,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 8,
     projectName: 'Pixabay Image Search App',
     about:
       'The Pixabay Image Search App is an application that searches for images. Users enter a search query, and the app displays relevant images.',
@@ -70,7 +110,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 9,
     projectName: 'Movie Search App',
     about:
       'The TMDB Movie Search App is a web tool using the TMDB API, enabling users to find information about movies, actors, and reviews on The Movie Database platform.',
@@ -84,7 +124,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 10,
     projectName: 'PhoneBook',
     about:
       'React Application for Contacts Management is a frontend solution for organizing contacts and handling user authentication.',
@@ -98,7 +138,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 11,
     projectName: 'Contacts REST API',
     about:
       'API for managing contacts. It includes endpoints for CRUD operations on contacts, user authentication using JWT.',
@@ -111,7 +151,7 @@ export const projects = [
       'The API is designed to manage contacts, offering a range of endpoints for creating, reading, updating, and deleting contacts. It also provides user authentication through JSON Web Tokens (JWT), allowing users to register, log in, and log out securely. \n\n Additionally, the API includes features for managing user avatars, verifying users via email, and resending email verification for account security.',
   },
   {
-    id: 9,
+    id: 12,
     projectName: 'LearnLingo',
     about:
       'An app for an online language teaching company. Users filter teachers by language, level, rates, and add favorites. Firebase handles auth.',
@@ -122,33 +162,5 @@ export const projects = [
     technology: ['React', 'Firebase', 'Styled components'],
     description:
       'The application is tailored for a company providing online language teacher services.\n\n  Users can easily filter teachers based on language, knowledge levels, and rates, and then add their preferred teachers to their favorites list. Firebase takes care of user authentication, ensuring secure access to the platform. React Router handles navigation.',
-  },
-
-  {
-    id: 10,
-    projectName: 'Model Portfolio',
-    about:
-      'The Model Portfolio Website showcases a photo with a responsive gallery and includes a contact form for getting in touch with the model.',
-    image: '/images/model-portfolio.jpg',
-    type: 'Individual project',
-    repo: 'https://github.com/OlenaPobehailo/tetianaandronenko',
-    livePage: 'https://tetianaandronenko.vercel.app/',
-    technology: ['Next.js', 'React', 'CSS Modules'],
-    description:
-      "The Model Portfolio Website is a sleek platform designed to showcase a photo model's work. \n\n Visitors can browse through a collection of  images in a responsive photo gallery. The site ensures an optimal viewing experience across all devices, with a modal window feature that opens images in a detailed view when clicked. \n\n Additionally, a loader enhances the user experience by displaying during image loading. Built using Next.js, the site leverages the React-Photo-Gallery for the responsive gallery, CSS Modules for scoped component styling, and the Next.js Image Component for optimized image loading and performance. \n\n It also includes a contact form for getting in touch with the model.",
-  },
-
-  {
-    id: 11,
-    projectName: 'My Portfolio',
-    about:
-      'This project is a portfolio website built using Next.js, showcasing my skills and projects.',
-    image: '/images/my-portfolio.jpg',
-    type: 'Individual project',
-    repo: 'https://github.com/OlenaPobehailo/my-portfolio',
-    livePage: 'https://olena-pobehailo.vercel.app/',
-    technology: ['Next.js', 'React', 'CSS Modules'],
-    description:
-      'This portfolio website showcases my skills and projects as a full-stack developer, offering visitors a seamless and interactive experience. It features a responsive design for optimal viewing across devices, highlights a diverse range of projects, showcases proficiency in front-end and back-end technologies like React, Node.js, and MongoDB, and includes a contact form for inquiries, collaborations, or discussions. Technologies used include Next.js for server-side rendering, React for UI building, CSS Modules for scoped styling, GitHub for hosting repositories, and Vercel for deployment.',
   },
 ];
