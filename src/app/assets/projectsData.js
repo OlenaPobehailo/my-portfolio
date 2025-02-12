@@ -1,6 +1,19 @@
 export const projects = [
   {
     id: 1,
+    projectName: 'Zatyshna',
+    about:
+      'The Zatyshna Language School website.  The homepage features an interactive castle image with clickable areas. The website is responsive and optimized for both desktop and mobile devices.',
+    image: '/images/zatyshna.jpg',
+    type: 'Individual project',
+    repo: 'https://github.com/OlenaPobehailo/zatyshna',
+    livePage: 'https://zatyshna.vercel.app/',
+    technology: ['Next.js', 'React', 'CSS Modules'],
+    description:
+      'The Zatyshna Language School website is built using Next.js. \n\n In addition to the main menu, the homepage features an image of a castle with towers. The image is interactive, using an image map to allow users to click on various areas of the castle image. The image map is implemented using <map> and <area> tags, which define clickable regions on the image. These areas have specific coordinates that enable navigation to different parts of the site. Each clickable region is highlighted with interactive effects, triggered by mouse hover events. \n\n The website is designed to be user-friendly, with a clean, modern interface and responsive layout to provide a seamless experience on both desktop and mobile devices.',
+  },
+  {
+    id: 2,
     projectName: 'Model Portfolio',
     about:
       'The Model Portfolio Website showcases a photo with a responsive gallery and includes a contact form for getting in touch with the model.',
@@ -12,9 +25,8 @@ export const projects = [
     description:
       "The Model Portfolio Website is a platform designed to showcase a photo model's work. \n\n Visitors can browse through a collection of  images in a responsive photo gallery. The site ensures an optimal viewing experience across all devices, with a modal window feature that opens images in a detailed view when clicked. \n\n Additionally, a loader enhances the user experience by displaying during image loading. Built using Next.js, the site leverages the React-Photo-Gallery for the responsive gallery, CSS Modules for scoped component styling, and the Next.js Image Component for optimized image loading and performance. \n\n It also includes a contact form for getting in touch with the model.",
   },
-
   {
-    id: 2,
+    id: 3,
     projectName: 'My Portfolio',
     about:
       'This project is a portfolio website built using Next.js, showcasing my skills and projects.',
@@ -27,7 +39,7 @@ export const projects = [
       'This portfolio website showcases my skills and projects as a full-stack developer, offering visitors a seamless and interactive experience. It features a responsive design for optimal viewing across devices, highlights a diverse range of projects, showcases proficiency in front-end and back-end technologies like React, Node.js, and MongoDB, and includes a contact form for inquiries, collaborations, or discussions. Technologies used include Next.js for server-side rendering, React for UI building, CSS Modules for scoped styling, GitHub for hosting repositories, and Vercel for deployment.',
   },
   {
-    id: 3,
+    id: 4,
     projectName: 'Artsander',
     about:
       'This project is a portfolio website for a professional video editor built using HTML, CSS, JavaScript, showcasing my skills and projects.',
@@ -40,7 +52,7 @@ export const projects = [
       'The Video Editor Portfolio Website is designed to showcase a to showcase his work, skills, and services. \n\n Visitors can browse through a collection of  videos. The site ensures an optimal viewing experience across all devices, with a modal window feature that opens videos when clicked. \n\n A loader enhances the user experience by displaying during video loading. Built using HTML, CSS, and JavaScript. \n\n It also includes a contacts for getting in touch with the video editor.',
   },
   {
-    id: 4,
+    id: 5,
     projectName: 'WebStudio',
     about:
       'The project implemented responsive/adoptive design for the best possible website viewing experience using HTML and SASS. Markup only.',
@@ -52,9 +64,8 @@ export const projects = [
     description:
       'The project implemented a responsive/adaptive design to ensure the best possible viewing experience across all devices, from mobile phones to desktops.\n\n Using HTML and SASS, the layout adjusts seamlessly to different screen sizes and orientations. The design features include breakpoints for mobile, tablet, and desktop views, ensuring that the website is both visually appealing and highly functional on any device. \n\n Additionally, the use of custom SASS variables and mixins streamlined the styling process, making the code more maintainable and scalable.',
   },
-
   {
-    id: 5,
+    id: 6,
     projectName: 'Cucina di Catherina',
     about:
       'A responsively designed e-commerce website. This project is built in team collaboration. Markup only.',
@@ -68,7 +79,7 @@ export const projects = [
   },
 
   // {
-  //   id: 6,
+  //   id: 7,
   //   projectName: 'Expense Tracker',
   //   about:
   //     'Adaptive web app for tracking daily expenses on desktop, tablet, and mobile. I implemented user registration and login',
@@ -82,7 +93,7 @@ export const projects = [
   // },
 
   {
-    id: 7,
+    id: 8,
     projectName: 'Car Rental Service',
     about:
       'The website is a car rental platform where users can select vehicles, filter by brand, price, and mileage, and create a personalized list of favorite models.',
@@ -96,7 +107,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     projectName: 'Pixabay Image Search App',
     about:
       'The Pixabay Image Search App is an application that searches for images. Users enter a search query, and the app displays relevant images.',
@@ -108,9 +119,8 @@ export const projects = [
     description:
       "The The Pixabay Image Search App is a dynamic web application designed to help users find and explore high-quality free images available on Pixabay. With a simple and intuitive interface, users can enter a search query to find images that match their interests. The application utilizes the Pixabay API to fetch and display relevant images based on the user's input. \n\n Key features of the app include real-time search functionality, where users receive instant image results as they type, and pagination to navigate through multiple pages of search results. Each image result is presented with essential details such as the image title, tags, and download options, making it easy for users to find exactly what they need.",
   },
-
   {
-    id: 9,
+    id: 10,
     projectName: 'Movie Search App',
     about:
       'The TMDB Movie Search App is a web tool using the TMDB API, enabling users to find information about movies, actors, and reviews on The Movie Database platform.',
@@ -124,7 +134,7 @@ export const projects = [
   },
 
   {
-    id: 10,
+    id: 11,
     projectName: 'PhoneBook',
     about:
       'React Application for Contacts Management is a frontend solution for organizing contacts and handling user authentication.',
@@ -136,9 +146,8 @@ export const projects = [
     description:
       'This is a React application designed for managing contacts and user interactions. \n\n It enables users to handle contacts efficiently. Additionally, the application supports user authentication, allowing new users to register securely and log in to access personalized features. \n\n Technologies utilized include React.js for frontend development and Redux for state management within the React application. \n\n The application supports two languages: English and Ukrainian.',
   },
-
   {
-    id: 11,
+    id: 12,
     projectName: 'Contacts REST API',
     about:
       'API for managing contacts. It includes endpoints for CRUD operations on contacts, user authentication using JWT.',
@@ -151,7 +160,7 @@ export const projects = [
       'The API is designed to manage contacts, offering a range of endpoints for creating, reading, updating, and deleting contacts. It also provides user authentication through JSON Web Tokens (JWT), allowing users to register, log in, and log out securely. \n\n Additionally, the API includes features for managing user avatars, verifying users via email, and resending email verification for account security.',
   },
   {
-    id: 12,
+    id: 13,
     projectName: 'LearnLingo',
     about:
       'An app for an online language teaching company. Users filter teachers by language, level, rates, and add favorites. Firebase handles auth.',
